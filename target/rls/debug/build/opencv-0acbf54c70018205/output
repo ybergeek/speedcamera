@@ -1,0 +1,425 @@
+cargo:rerun-if-env-changed=OPENCV4_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=OPENCV4_STATIC
+cargo:rerun-if-env-changed=OPENCV4_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=SYSROOT
+cargo:rerun-if-env-changed=OPENCV4_STATIC
+cargo:rerun-if-env-changed=OPENCV4_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=OPENCV4_STATIC
+cargo:rerun-if-env-changed=OPENCV4_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rustc-cfg=ocvrs_opencv_branch_4
+cargo:rerun-if-env-changed=OPENCV_PACKAGE_NAME
+cargo:rerun-if-env-changed=OPENCV_PKGCONFIG_NAME
+cargo:rerun-if-env-changed=OPENCV_CMAKE_NAME
+cargo:rerun-if-env-changed=OPENCV_CMAKE_BIN
+cargo:rerun-if-env-changed=OPENCV_VCPKG_NAME
+cargo:rerun-if-env-changed=OPENCV_LINK_LIBS
+cargo:rerun-if-env-changed=OPENCV_LINK_PATHS
+cargo:rerun-if-env-changed=OPENCV_INCLUDE_PATHS
+cargo:rerun-if-env-changed=OPENCV_DISABLE_PROBES
+cargo:rerun-if-env-changed=CMAKE_PREFIX_PATH
+cargo:rerun-if-env-changed=OpenCV_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=VCPKG_ROOT
+cargo:rerun-if-env-changed=VCPKGRS_DYNAMIC
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/xfeatures2d.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/gapi.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/videoio.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/alphamat.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/hdf.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/manual-features2d.cpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/manual-dnn.cpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/photo.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/core.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/sfm.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/ccalib.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/dnn.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/manual-core.cpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/face.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/bioinspired.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/aruco.hpp
+cargo:rerun-if-changed=/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/ocvrs_common.hpp
+cargo:rerun-if-changed=Cargo.toml
+=== Clang: clang version 13.0.1
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rustc-cfg=ocvrs_has_module_sys
+cargo:rustc-cfg=ocvrs_has_module_types
+cargo:rustc-cfg=ocvrs_has_module_alphamat
+cargo:rustc-cfg=ocvrs_has_module_aruco
+cargo:rustc-cfg=ocvrs_has_module_barcode
+cargo:rustc-cfg=ocvrs_has_module_bgsegm
+cargo:rustc-cfg=ocvrs_has_module_bioinspired
+cargo:rustc-cfg=ocvrs_has_module_calib3d
+cargo:rustc-cfg=ocvrs_has_module_ccalib
+cargo:rustc-cfg=ocvrs_has_module_core
+cargo:rustc-cfg=ocvrs_has_module_cvv
+cargo:rustc-cfg=ocvrs_has_module_dnn
+cargo:rustc-cfg=ocvrs_has_module_dnn_superres
+cargo:rustc-cfg=ocvrs_has_module_dpm
+cargo:rustc-cfg=ocvrs_has_module_face
+cargo:rustc-cfg=ocvrs_has_module_features2d
+cargo:rustc-cfg=ocvrs_has_module_flann
+cargo:rustc-cfg=ocvrs_has_module_freetype
+cargo:rustc-cfg=ocvrs_has_module_fuzzy
+cargo:rustc-cfg=ocvrs_has_module_hdf
+cargo:rustc-cfg=ocvrs_has_module_hfs
+cargo:rustc-cfg=ocvrs_has_module_highgui
+cargo:rustc-cfg=ocvrs_has_module_img_hash
+cargo:rustc-cfg=ocvrs_has_module_imgcodecs
+cargo:rustc-cfg=ocvrs_has_module_imgproc
+cargo:rustc-cfg=ocvrs_has_module_intensity_transform
+cargo:rustc-cfg=ocvrs_has_module_line_descriptor
+cargo:rustc-cfg=ocvrs_has_module_mcc
+cargo:rustc-cfg=ocvrs_has_module_ml
+cargo:rustc-cfg=ocvrs_has_module_objdetect
+cargo:rustc-cfg=ocvrs_has_module_optflow
+cargo:rustc-cfg=ocvrs_has_module_phase_unwrapping
+cargo:rustc-cfg=ocvrs_has_module_photo
+cargo:rustc-cfg=ocvrs_has_module_plot
+cargo:rustc-cfg=ocvrs_has_module_quality
+cargo:rustc-cfg=ocvrs_has_module_rapid
+cargo:rustc-cfg=ocvrs_has_module_rgbd
+cargo:rustc-cfg=ocvrs_has_module_saliency
+cargo:rustc-cfg=ocvrs_has_module_shape
+cargo:rustc-cfg=ocvrs_has_module_stereo
+cargo:rustc-cfg=ocvrs_has_module_stitching
+cargo:rustc-cfg=ocvrs_has_module_structured_light
+cargo:rustc-cfg=ocvrs_has_module_superres
+cargo:rustc-cfg=ocvrs_has_module_surface_matching
+cargo:rustc-cfg=ocvrs_has_module_text
+cargo:rustc-cfg=ocvrs_has_module_tracking
+cargo:rustc-cfg=ocvrs_has_module_video
+cargo:rustc-cfg=ocvrs_has_module_videoio
+cargo:rustc-cfg=ocvrs_has_module_videostab
+cargo:rustc-cfg=ocvrs_has_module_viz
+cargo:rustc-cfg=ocvrs_has_module_wechat_qrcode
+cargo:rustc-cfg=ocvrs_has_module_xfeatures2d
+cargo:rustc-cfg=ocvrs_has_module_ximgproc
+cargo:rustc-cfg=ocvrs_has_module_xobjdetect
+cargo:rustc-cfg=ocvrs_has_module_xphoto
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/aruco.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/aruco.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/alphamat.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/alphamat.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/calib3d.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/calib3d.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/bgsegm.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/bgsegm.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/barcode.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/barcode.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/ccalib.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/ccalib.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/bioinspired.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/bioinspired.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/core.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/core.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/manual-core.o" "-c" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/manual-core.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/cvv.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/cvv.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/dnn.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/dnn.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/manual-dnn.o" "-c" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/manual-dnn.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/dnn_superres.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/dnn_superres.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/dpm.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/dpm.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/face.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/face.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/features2d.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/features2d.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/manual-features2d.o" "-c" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp/manual-features2d.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/flann.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/flann.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/freetype.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/freetype.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/fuzzy.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/fuzzy.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/hdf.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/hdf.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/hfs.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/hfs.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/highgui.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/highgui.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/img_hash.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/img_hash.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/imgcodecs.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/imgcodecs.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/imgproc.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/imgproc.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/intensity_transform.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/intensity_transform.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/line_descriptor.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/line_descriptor.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/mcc.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/mcc.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/ml.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/ml.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/objdetect.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/objdetect.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/optflow.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/optflow.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/phase_unwrapping.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/phase_unwrapping.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/photo.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/photo.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/plot.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/plot.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/quality.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/quality.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/rapid.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/rapid.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/rgbd.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/rgbd.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/saliency.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/saliency.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/shape.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/shape.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/stereo.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/stereo.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/stitching.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/stitching.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/structured_light.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/structured_light.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/superres.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/superres.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/surface_matching.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/surface_matching.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/text.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/text.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/tracking.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/tracking.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/video.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/video.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/videoio.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/videoio.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/videostab.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/videostab.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/viz.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/viz.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/wechat_qrcode.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/wechat_qrcode.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/xfeatures2d.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/xfeatures2d.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/ximgproc.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/ximgproc.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/xobjdetect.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/xobjdetect.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp" "-I" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out" "-I" "." "-I" "/usr/include/opencv4" "-Wall" "-Wextra" "-std=c++11" "-Wno-deprecated-declarations" "-Wno-deprecated-copy" "-Wno-unused-parameter" "-Wno-sign-compare" "-Wno-comment" "-Wno-unused-variable" "-Wno-ignored-qualifiers" "-Wno-return-type-c-linkage" "-o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/xphoto.o" "-c" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/xphoto.cpp"
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/libocvrs.a" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/alphamat.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/aruco.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/barcode.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/bgsegm.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/bioinspired.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/calib3d.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/ccalib.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/core.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/manual-core.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/cvv.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/dnn.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/manual-dnn.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/dnn_superres.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/dpm.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/face.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/features2d.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/manual-features2d.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/flann.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/freetype.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/fuzzy.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/hdf.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/hfs.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/highgui.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/img_hash.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/imgcodecs.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/imgproc.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/intensity_transform.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/line_descriptor.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/mcc.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/ml.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/objdetect.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/optflow.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/phase_unwrapping.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/photo.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/plot.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/quality.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/rapid.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/rgbd.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/saliency.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/shape.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/stereo.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/stitching.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/structured_light.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/superres.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/surface_matching.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/text.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/tracking.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/video.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/videoio.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/videostab.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/viz.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/wechat_qrcode.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/xfeatures2d.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/ximgproc.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/xobjdetect.o" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/xphoto.o"
+exit status: 0
+running: "ar" "s" "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out/libocvrs.a"
+exit status: 0
+cargo:rustc-link-lib=static=ocvrs
+cargo:rustc-link-search=native=/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out
+CXXSTDLIB_x86_64-unknown-linux-gnu = None
+CXXSTDLIB_x86_64_unknown_linux_gnu = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
+cargo:rustc-link-lib=stdc++
+cargo:rustc-link-search=/usr/lib
+cargo:rustc-link-lib=opencv_gapi
+cargo:rustc-link-lib=opencv_stitching
+cargo:rustc-link-lib=opencv_alphamat
+cargo:rustc-link-lib=opencv_aruco
+cargo:rustc-link-lib=opencv_barcode
+cargo:rustc-link-lib=opencv_bgsegm
+cargo:rustc-link-lib=opencv_bioinspired
+cargo:rustc-link-lib=opencv_ccalib
+cargo:rustc-link-lib=opencv_cvv
+cargo:rustc-link-lib=opencv_dnn_objdetect
+cargo:rustc-link-lib=opencv_dnn_superres
+cargo:rustc-link-lib=opencv_dpm
+cargo:rustc-link-lib=opencv_face
+cargo:rustc-link-lib=opencv_freetype
+cargo:rustc-link-lib=opencv_fuzzy
+cargo:rustc-link-lib=opencv_hdf
+cargo:rustc-link-lib=opencv_hfs
+cargo:rustc-link-lib=opencv_img_hash
+cargo:rustc-link-lib=opencv_intensity_transform
+cargo:rustc-link-lib=opencv_line_descriptor
+cargo:rustc-link-lib=opencv_mcc
+cargo:rustc-link-lib=opencv_quality
+cargo:rustc-link-lib=opencv_rapid
+cargo:rustc-link-lib=opencv_reg
+cargo:rustc-link-lib=opencv_rgbd
+cargo:rustc-link-lib=opencv_saliency
+cargo:rustc-link-lib=opencv_stereo
+cargo:rustc-link-lib=opencv_structured_light
+cargo:rustc-link-lib=opencv_phase_unwrapping
+cargo:rustc-link-lib=opencv_superres
+cargo:rustc-link-lib=opencv_optflow
+cargo:rustc-link-lib=opencv_surface_matching
+cargo:rustc-link-lib=opencv_tracking
+cargo:rustc-link-lib=opencv_highgui
+cargo:rustc-link-lib=opencv_datasets
+cargo:rustc-link-lib=opencv_text
+cargo:rustc-link-lib=opencv_plot
+cargo:rustc-link-lib=opencv_videostab
+cargo:rustc-link-lib=opencv_videoio
+cargo:rustc-link-lib=opencv_viz
+cargo:rustc-link-lib=opencv_wechat_qrcode
+cargo:rustc-link-lib=opencv_xfeatures2d
+cargo:rustc-link-lib=opencv_shape
+cargo:rustc-link-lib=opencv_ml
+cargo:rustc-link-lib=opencv_ximgproc
+cargo:rustc-link-lib=opencv_video
+cargo:rustc-link-lib=opencv_xobjdetect
+cargo:rustc-link-lib=opencv_objdetect
+cargo:rustc-link-lib=opencv_calib3d
+cargo:rustc-link-lib=opencv_imgcodecs
+cargo:rustc-link-lib=opencv_features2d
+cargo:rustc-link-lib=opencv_dnn
+cargo:rustc-link-lib=opencv_flann
+cargo:rustc-link-lib=opencv_xphoto
+cargo:rustc-link-lib=opencv_photo
+cargo:rustc-link-lib=opencv_imgproc
+cargo:rustc-link-lib=opencv_core

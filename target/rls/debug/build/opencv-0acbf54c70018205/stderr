@@ -1,0 +1,268 @@
+=== Crate version: Some("0.64.1")
+=== Environment configuration:
+===   OPENCV_PACKAGE_NAME = None
+===   OPENCV_PKGCONFIG_NAME = None
+===   OPENCV_CMAKE_NAME = None
+===   OPENCV_CMAKE_BIN = None
+===   OPENCV_VCPKG_NAME = None
+===   OPENCV_LINK_LIBS = None
+===   OPENCV_LINK_PATHS = None
+===   OPENCV_INCLUDE_PATHS = None
+===   OPENCV_DISABLE_PROBES = None
+===   CMAKE_PREFIX_PATH = None
+===   OpenCV_DIR = None
+===   PKG_CONFIG_PATH = None
+===   VCPKG_ROOT = None
+===   VCPKGRS_DYNAMIC = None
+=== Enabled features:
+===   ALPHAMAT
+===   ARUCO
+===   BARCODE
+===   BGSEGM
+===   BIOINSPIRED
+===   CALIB3D
+===   CCALIB
+===   CUDAARITHM
+===   CUDABGSEGM
+===   CUDACODEC
+===   CUDAFEATURES2D
+===   CUDAFILTERS
+===   CUDAIMGPROC
+===   CUDAOBJDETECT
+===   CUDAOPTFLOW
+===   CUDASTEREO
+===   CUDAWARPING
+===   CVV
+===   DEFAULT
+===   DNN
+===   DNN_SUPERRES
+===   DPM
+===   FACE
+===   FEATURES2D
+===   FLANN
+===   FREETYPE
+===   FUZZY
+===   GAPI
+===   HDF
+===   HFS
+===   HIGHGUI
+===   IMGCODECS
+===   IMGPROC
+===   IMG_HASH
+===   INTENSITY_TRANSFORM
+===   LINE_DESCRIPTOR
+===   MCC
+===   ML
+===   OBJDETECT
+===   OPTFLOW
+===   OVIS
+===   PHASE_UNWRAPPING
+===   PHOTO
+===   PLOT
+===   QUALITY
+===   RAPID
+===   RGBD
+===   SALIENCY
+===   SFM
+===   SHAPE
+===   STEREO
+===   STITCHING
+===   STRUCTURED_LIGHT
+===   SUPERRES
+===   SURFACE_MATCHING
+===   TEXT
+===   TRACKING
+===   VIDEO
+===   VIDEOIO
+===   VIDEOSTAB
+===   VIZ
+===   WECHAT_QRCODE
+===   XFEATURES2D
+===   XIMGPROC
+===   XOBJDETECT
+===   XPHOTO
+=== Detected probe priority based on environment vars: pkg_config: false, cmake: false, vcpkg: false
+=== Probing the OpenCV library in the following order: environment, pkg_config, cmake, vcpkg_cmake, vcpkg
+=== Can't probe using: environment, continuing with other methods because: Some environment variables are missing
+=== Probing OpenCV library using pkg_config
+=== OpenCV library configuration: Library {
+    include_paths: [
+        "/usr/include/opencv4",
+    ],
+    version: Version {
+        major: 4,
+        minor: 5,
+        patch: 5,
+    },
+    cargo_metadata: [
+        "cargo:rustc-link-search=/usr/lib",
+        "cargo:rustc-link-lib=opencv_gapi",
+        "cargo:rustc-link-lib=opencv_stitching",
+        "cargo:rustc-link-lib=opencv_alphamat",
+        "cargo:rustc-link-lib=opencv_aruco",
+        "cargo:rustc-link-lib=opencv_barcode",
+        "cargo:rustc-link-lib=opencv_bgsegm",
+        "cargo:rustc-link-lib=opencv_bioinspired",
+        "cargo:rustc-link-lib=opencv_ccalib",
+        "cargo:rustc-link-lib=opencv_cvv",
+        "cargo:rustc-link-lib=opencv_dnn_objdetect",
+        "cargo:rustc-link-lib=opencv_dnn_superres",
+        "cargo:rustc-link-lib=opencv_dpm",
+        "cargo:rustc-link-lib=opencv_face",
+        "cargo:rustc-link-lib=opencv_freetype",
+        "cargo:rustc-link-lib=opencv_fuzzy",
+        "cargo:rustc-link-lib=opencv_hdf",
+        "cargo:rustc-link-lib=opencv_hfs",
+        "cargo:rustc-link-lib=opencv_img_hash",
+        "cargo:rustc-link-lib=opencv_intensity_transform",
+        "cargo:rustc-link-lib=opencv_line_descriptor",
+        "cargo:rustc-link-lib=opencv_mcc",
+        "cargo:rustc-link-lib=opencv_quality",
+        "cargo:rustc-link-lib=opencv_rapid",
+        "cargo:rustc-link-lib=opencv_reg",
+        "cargo:rustc-link-lib=opencv_rgbd",
+        "cargo:rustc-link-lib=opencv_saliency",
+        "cargo:rustc-link-lib=opencv_stereo",
+        "cargo:rustc-link-lib=opencv_structured_light",
+        "cargo:rustc-link-lib=opencv_phase_unwrapping",
+        "cargo:rustc-link-lib=opencv_superres",
+        "cargo:rustc-link-lib=opencv_optflow",
+        "cargo:rustc-link-lib=opencv_surface_matching",
+        "cargo:rustc-link-lib=opencv_tracking",
+        "cargo:rustc-link-lib=opencv_highgui",
+        "cargo:rustc-link-lib=opencv_datasets",
+        "cargo:rustc-link-lib=opencv_text",
+        "cargo:rustc-link-lib=opencv_plot",
+        "cargo:rustc-link-lib=opencv_videostab",
+        "cargo:rustc-link-lib=opencv_videoio",
+        "cargo:rustc-link-lib=opencv_viz",
+        "cargo:rustc-link-lib=opencv_wechat_qrcode",
+        "cargo:rustc-link-lib=opencv_xfeatures2d",
+        "cargo:rustc-link-lib=opencv_shape",
+        "cargo:rustc-link-lib=opencv_ml",
+        "cargo:rustc-link-lib=opencv_ximgproc",
+        "cargo:rustc-link-lib=opencv_video",
+        "cargo:rustc-link-lib=opencv_xobjdetect",
+        "cargo:rustc-link-lib=opencv_objdetect",
+        "cargo:rustc-link-lib=opencv_calib3d",
+        "cargo:rustc-link-lib=opencv_imgcodecs",
+        "cargo:rustc-link-lib=opencv_features2d",
+        "cargo:rustc-link-lib=opencv_dnn",
+        "cargo:rustc-link-lib=opencv_flann",
+        "cargo:rustc-link-lib=opencv_xphoto",
+        "cargo:rustc-link-lib=opencv_photo",
+        "cargo:rustc-link-lib=opencv_imgproc",
+        "cargo:rustc-link-lib=opencv_core",
+    ],
+}
+=== Detected OpenCV module header dir at: /usr/include/opencv4/opencv2
+=== Found OpenCV version: 4.5.5 in headers located at: /usr/include/opencv4
+=== Generating code in: /home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out
+=== Placing generated bindings into: /home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src/opencv
+=== Using OpenCV headers from: /usr/include/opencv4
+=== Clang command line args: [
+    "-isystem/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0",
+    "-isystem/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu",
+    "-isystem/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward",
+    "-isystem/usr/lib/clang/13.0.1/include",
+    "-isystem/usr/local/include",
+    "-isystem/usr/include",
+    "-I/usr/include/opencv4",
+    "-F/usr/include/opencv4",
+    "-I/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp",
+    "-F/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp",
+    "-DOCVRS_PARSING_HEADERS",
+    "-includeocvrs_ephemeral.hpp",
+    "-std=c++14",
+]
+=== Generated: alphamat
+=== Generated: barcode
+=== Generated: bgsegm
+=== Generated: bioinspired
+=== Generated: aruco
+=== Generated: ccalib
+=== Generated: cvv
+=== Generated: dpm
+=== Generated: dnn_superres
+=== Generated: calib3d
+=== Generated: freetype
+=== Generated: fuzzy
+=== Generated: flann
+=== Generated: face
+=== Generated: features2d
+=== Generated: hfs
+=== Generated: hdf
+=== Generated: highgui
+=== Generated: imgcodecs
+=== Generated: img_hash
+=== Generated: intensity_transform
+=== Generated: dnn
+=== Generated: line_descriptor
+=== Generated: mcc
+=== Generated: phase_unwrapping
+=== Generated: imgproc
+=== Generated: objdetect
+=== Generated: ml
+=== Generated: plot
+=== Generated: optflow
+=== Generated: photo
+=== Generated: quality
+=== Generated: rapid
+=== Generated: stereo
+=== Generated: saliency
+=== Generated: shape
+=== Generated: superres
+=== Generated: structured_light
+=== Generated: surface_matching
+=== Generated: tracking
+=== Generated: core
+=== Generated: text
+=== Generated: rgbd
+=== Generated: wechat_qrcode
+=== Generated: videoio
+=== Generated: video
+=== Generated: xobjdetect
+=== Generated: xphoto
+=== Generated: stitching
+=== Generated: viz
+=== Generated: videostab
+=== Generated: xfeatures2d
+=== Generated: ximgproc
+=== Total binding generation time: 30.723063649s
+=== Compiler information: Tool {
+    path: "c++",
+    cc_wrapper_path: None,
+    cc_wrapper_args: [],
+    args: [
+        "-O0",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fPIC",
+        "-g",
+        "-fno-omit-frame-pointer",
+        "-m64",
+        "-I",
+        "/home/alf/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.64.1/src_cpp",
+        "-I",
+        "/home/alf/rust/speedcamera/target/rls/debug/build/opencv-0acbf54c70018205/out",
+        "-I",
+        ".",
+        "-I",
+        "/usr/include/opencv4",
+        "-Wall",
+        "-Wextra",
+        "-std=c++11",
+        "-Wno-deprecated-declarations",
+        "-Wno-deprecated-copy",
+        "-Wno-unused-parameter",
+        "-Wno-sign-compare",
+        "-Wno-comment",
+        "-Wno-unused-variable",
+        "-Wno-ignored-qualifiers",
+        "-Wno-return-type-c-linkage",
+    ],
+    env: [],
+    family: Gnu,
+    cuda: false,
+    removed_args: [],
+}
